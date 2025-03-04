@@ -25,13 +25,18 @@ body {
     z-index: 99;
     display: flex;
     align-items: flex-start;
+    /* align-items: center;  */
     justify-content: space-between;
-    padding: 24px;
+    padding: 20px;
+    /* background-color: rgba(247, 247, 247, 0.95); Added background color */
+    transition: all 0.3s ease; /* Added smooth transition */
 }
 
 #nav-part1 {
     height: 82px;
     overflow: hidden;
+    /* display: flex;  */
+    align-items: center;
 }
 
 #nav-part1 svg {
@@ -43,6 +48,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 45px;
+    transition: all 0.3s ease; /* Added transition */
 }
 
 #link {
@@ -98,7 +104,7 @@ body {
     font-family: futura;
     line-height: 14vw;
     letter-spacing: -6px;
-    color: #222;
+    color: #000000;
 }
 
 .hero-content {
@@ -108,7 +114,7 @@ body {
 }
 
 .hero-text {
-    color: #444; /* Updated to #444 as per the most repeated value */
+    color: #000000; /* Updated to #444 as per the most repeated value */
     font-size: 1.2rem;
     max-width: 600px;
     margin: 2rem auto;
