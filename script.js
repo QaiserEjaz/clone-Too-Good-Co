@@ -71,29 +71,33 @@ function videoconAnimation(){
     var playbtn = document.querySelector("#play")
 
     videocon.addEventListener("mouseenter",function(){
-        // playbtn.style.opacity = 1
-        // playbtn.style.scale = 1
-        gsap.to( playbtn,{
+        gsap.to(playbtn,{
             scale:1,
-            opacity:1
+            opacity:1,
+            duration: 0.3
         })
     })
         
     videocon.addEventListener("mouseleave",function(){
         gsap.to(playbtn,{
             scale:0,
-            opacity : 0
+            opacity: 0,
+            duration: 0.3
         })
     })
     
     videocon.addEventListener("mousemove", function(dets){
         gsap.to(playbtn,{
-            left:dets.x-50,
-            top:dets.y-50
+            left:dets.x,
+            top:dets.y,
+            duration: 0.1
         })
-
     })
 
+    playbtn.addEventListener("click", function(){
+        window.open("https://www.youtube.com/watch?v=your-video-id", "_blank");
+        // Replace 'your-video-id' with actual YouTube video ID or any other video link
+    })
 }
 videoconAnimation();
 
