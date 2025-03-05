@@ -2,7 +2,13 @@
 
 A modern, responsive website clone of Two Good Co featuring smooth animations, interactive elements, and a mobile-first design approach.
 
-![Two Good Co Clone Demo](https://github.com/QaiserEjaz/clone-Too-Good-Co/screenshots/desktop.png)
+## 📱 Screenshots
+
+### Desktop View
+![Desktop View](screenshots/desktop.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile.png)
 
 ## 🌟 Features
 
@@ -28,13 +34,6 @@ A modern, responsive website clone of Two Good Co featuring smooth animations, i
 
 [View Live Demo](https://qaiserejaz.github.io/clone-Too-Good-Co/)
 
-## 📱 Screenshots
-
-### Desktop View
-![Desktop View](screenshots/desktop.png)
-
-### Mobile View
-![Mobile View](screenshots/mobile.png)
 
 ## 🔧 Installation
 
